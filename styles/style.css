@@ -1,74 +1,79 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
-div.logo{
-    width: 100px;
-    height: 100px;
-    margin-top: 5px;
+/*header*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: block;
 }
-
-img.logo{
-    width: 100%;
-}
+/*nav*/
+/*list*/
+li {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    list-style: none; 
+    display: inline-block;  
+    flex-direction: end; 
+    justify-content: space-between; 
+    padding-right: 5px;  
+    margin: 7px;
+}  
 
 ul{
-    list-style: none;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-ul li {
-    display: inline-block;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #1A1A1A ;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 30px;  
 }
 
 
-nav{
-    width: 100%;
-    height: 5%;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
+
+/*logo*/
+.logo {
+    width: 300;
+    height: 300;
+    object-fit: contain;
+    margin-left: 20px;
 }
 
-.Jumbotron {
+/*-----------------------------------*/
+
+.musicimage {
     background-image: url(../images/landing.jpg);
-    width: 100%;
-    height: 60vh;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
     background-size: cover;
 }
 
-.musictitle { font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 50px;
-        color: white;
-        display: flex;
-        text-align: center;
-        justify-content: center;
+.musicimage {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.musictitle {
+    font-size: 50px;
+    font-family:"Raleway",sans-serif;
+    font-weight: 900;
+    text-align: center;
 }
 
 .musicparagraph {
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 20px;
-        color: white;
-        display: flex;
-        text-align: center;
-        justify-content: center;
+    font-size: 12px;
+    font-family:"Raleway",sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -30px;
 }
 
-/*section1*/
+/*-----------------------------------*/
+
 .h4title {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:"Raleway", sans-serif;
     font-size: 20px;
     color: black ;
     display: flex;
@@ -76,83 +81,80 @@ nav{
     justify-content: center;
     text-decoration: underline  #00B172; 
 }
+/*-----------------------------------*/
 
-
-.icons {
+#allIcons > div {
     display: flex;
-        text-align: center;
-        justify-content: center;
-        height: 40px;
-        width: 40px;
-}
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .icons {
+    font-size: 0.8em;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px 10% 20px 10%;
+    width: 10%;
+    font-family:"Raleway", sans-serif;
+    font-size: 15px;
+  }
 
-.iconssection {
-    
+  h4 {
+      font-family:"Raleway", sans-serif;
+      font-weight: 900;
+  }
+
+  p {
+      font-weight: 100;
+  }
+  .icons img {
+    width: 100px;
+  }
+
+  /*-----------------------------------*/
+  .Kanye {
+    background-color: #00b172;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 5% 0 5%;
+  }
+  
+  
+  .headersKayne {
+    font-family:"Raleway", sans-serif;
+    font-size: 20px;
+    display: block;
+    text-align: left;
+    color: white;
+  }
+
+.kanyeText{
+    font-family:"Raleway", sans-serif;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    color: white;
+  }
+  .titleKanye
+  {
+    font-family:"Raleway", sans-serif;
+    font-size: 20px;
+    display: block;
+    text-align: left;
+    margin-top : -80;
+    text-decoration: underline white;
+    color: white;
+  }
+
+  .icontot{
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         align-items: center;
-        align-content: center;
-    
-}
-
-.iconmillon {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-   
-}
-
-.musicicon {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    
-}
-
-.iconstream {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    
-}
-
-h3 {
-    color: #00B172;
-}
-
-
-.backgroundKayne {
-    background-color: #00B172;
-       
-}
-.kanyetitle {
-    color : white;
-    text-decoration: underline white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    text-align: center;
-    
-}
-
-h4  {
-    color : white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    text-align: center;
-}
-
-p {
-    color : white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    text-align: center;
-}
-
-.newsection {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-between
-}
+        align-content: space-around;
+        align-items: space-between;
 	
+}
+ 
