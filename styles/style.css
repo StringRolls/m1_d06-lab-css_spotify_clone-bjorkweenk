@@ -1,8 +1,160 @@
-/*
-Colors:
+/*header*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: block;
+}
+/*nav*/
+/*list*/
+li {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    list-style: none; 
+    display: inline-block;  
+    flex-direction: end; 
+    justify-content: space-between; 
+    padding-right: 5px;  
+    margin: 7px;
+}  
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+ul{
+    padding-right: 30px;  
+}
 
-*/
+
+
+/*logo*/
+.logo {
+    width: 300;
+    height: 300;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+/*-----------------------------------*/
+
+.musicimage {
+    background-image: url(../images/landing.jpg);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-size: cover;
+}
+
+.musicimage {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.musictitle {
+    font-size: 50px;
+    font-family:"Raleway",sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.musicparagraph {
+    font-size: 12px;
+    font-family:"Raleway",sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -30px;
+}
+
+/*-----------------------------------*/
+
+.h4title {
+    font-family:"Raleway", sans-serif;
+    font-size: 20px;
+    color: black ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline  #00B172; 
+}
+/*-----------------------------------*/
+
+#allIcons > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .icons {
+    font-size: 0.8em;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px 10% 20px 10%;
+    width: 10%;
+    font-family:"Raleway", sans-serif;
+    font-size: 15px;
+  }
+
+  h4 {
+      font-family:"Raleway", sans-serif;
+      font-weight: 900;
+  }
+
+  p {
+      font-weight: 100;
+  }
+  .icons img {
+    width: 100px;
+  }
+
+  /*-----------------------------------*/
+  .Kanye {
+    background-color: #00b172;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 5% 0 5%;
+  }
+  
+  
+  .headersKayne {
+    font-family:"Raleway", sans-serif;
+    font-size: 20px;
+    display: block;
+    text-align: left;
+    color: white;
+  }
+
+.kanyeText{
+    font-family:"Raleway", sans-serif;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    color: white;
+  }
+  .titleKanye
+  {
+    font-family:"Raleway", sans-serif;
+    font-size: 20px;
+    display: block;
+    text-align: left;
+    margin-top : -80;
+    text-decoration: underline white;
+    color: white;
+  }
+
+  .icontot{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-around;
+        align-items: space-between;
+	
+}
+ 
